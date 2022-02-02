@@ -1,6 +1,9 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
 }
 .login-body {
+  overflow: hidden;
   width: 100%;
   height: 100vh;
   background: red;
@@ -24,16 +27,39 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.login-button{
-    outline-style: none;
-    border: none;
-    background: #4285F4;
-    width: 300px;
+.login-button {
+  outline-style: none;
+  border: none;
+  background: #4285f4;
+  width: 300px;
+  transition: all 0.25s ease;
 }
-.login-button:hover{
-    background: #3164b6;
+.login-button:hover {
+  background: #3164b6;
+  
 }
-h1{
-    color: #4285F4;
-    cursor: default;
+.login-button:focus {
+  box-shadow: 0 0 0 0;
+  outline: none;
+}
+h1 {
+  color: #4285f4;
+  cursor: default;
+}
+.login-input {
+  outline: none;
+  margin-bottom: 10px;
+}
+.login-input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+.login-checkbox:focus {
+  box-shadow: 0 0 0 0;
+  outline: none;
+}
+.btnContainer span{
+  color: #4285f4;
+  cursor: pointer;
+  margin: 2px;
 }
