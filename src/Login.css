@@ -62,4 +62,9 @@ h1 {
   color: #4285f4;
   cursor: pointer;
   margin: 2px;
+  transition: all 0.25s ease;
+}
+.btnContainer span:hover{
+  color:#14489b;
+  
 }
