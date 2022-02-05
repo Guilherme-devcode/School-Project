@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css'
 import { FaWallet, FaSortAmountDownAlt, FaSortAmountUpAlt, FaListUl, FaDoorOpen, FaStream, FaRegUser } from "react-icons/fa";
-
+import List from './components/List';
 
 function Home() {
   return <div className='home'>
@@ -31,6 +31,9 @@ function Home() {
           <a><span>Ver mais</span></a>
         </div>
       </div>
+    </section>
+    <section className='list-home'>
+    <List/>
     </section>
 
   </div>
