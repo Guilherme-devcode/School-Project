@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Login from './Login';
-import Hero from './Hero';
+import Hero from './Sidebar';
 import fire from './fire'
+
 
 
 const App = () => {
@@ -89,6 +90,7 @@ const App = () => {
       ) : ( 
         <Login email={email} setEmail={setEmail} password={password} setPassword={setPassword} handleLogin={handleLogin} handleSignUp={handleSignUp} hasAccount={hasAccount} setHasAccount={setHasAccount} emailError={emailError} passwordError={passwordError} />
     )}
+   
 
     </div>
   );

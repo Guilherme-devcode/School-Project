@@ -1,0 +1,95 @@
+.cards{
+    display: grid;
+    grid-template-columns: 350px 350px 350px ;
+	margin: 0 auto;
+    max-width: 1000px;
+}
+.h2-home{
+    position: relative;
+    margin-left: 6em;
+    transform: translateY(10px);
+    color: #3956d6;
+}
+.card{
+    margin: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    height: 150px;
+}
+.card-income{
+    -webkit-box-shadow: 4px 7px 3px 0px rgba(0,0,0,0.47); 
+    box-shadow: 4px 7px 3px 0px rgba(0,0,0,0.47);
+    background: #fff;
+    width: 100%;
+    text-transform: capitalize;  
+    height: 100%;
+    align-items: center;
+}
+.card-income h2{
+    color: rgb(65, 207, 101);
+}
+.card-balance h2{
+    color: rgb(85, 110, 255);
+}
+.card-amount h2{
+    color: rgb(235, 88, 88);
+}
+.card p{
+    font-weight: bold;
+}
+.card a{
+    position: absolute;
+    margin: auto;
+    transform: translateX(-50%);
+    width: 318px;
+    height: 50px;
+    background: #030a6821;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.card a span{
+    position: relative;
+    width: 100%;
+    top: 8px;
+    left: -110px;
+    color: #3956d6;
+}
+.card-amount{
+    -webkit-box-shadow: 4px 7px 3px 0px rgba(0,0,0,0.47); 
+    box-shadow: 4px 7px 3px 0px rgba(0,0,0,0.47);
+    background: #fff;
+    width: 100%;
+    color: black;
+    text-transform: capitalize;  
+    height: 100%;
+    align-items: center;
+}
+.card-balance{
+    -webkit-box-shadow: 4px 7px 3px 0px rgba(0,0,0,0.47); 
+    box-shadow: 4px 7px 3px 0px rgba(0,0,0,0.47);
+    background: #fff;
+    width: 100%;
+    color: black;
+    text-transform: capitalize;  
+    height: 100%;
+    align-items: center;
+}
+
+.icon-home{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 50px;
+}
+.card-income .icon-home{
+    color: rgb(65, 207, 101);
+    
+}
+.card-balance .icon-home{
+    color: rgb(85, 110, 255);
+}
+.card-amount .icon-home{
+    color: rgb(235, 88, 88);
+
+}

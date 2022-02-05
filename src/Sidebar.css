@@ -8,6 +8,7 @@
   background: #e7eff8;
 }
 .navigation {
+  z-index: 1;  
   position: fixed;
   width: 70px;
   height: 100%;
@@ -63,6 +64,39 @@
   text-align: start;
   white-space: nowrap;
 }
-.logout{
-    transform: translateY(22.5em);
+.logout {
+  transform: translateY(22.5em);
 }
+.card-hero{
+    width: 20em;
+    /* transform: translateX(100%); */
+    position: absolute;
+    z-index: 0;
+    display: block;
+    display: flex;
+    border-radius: 10px;
+}
+.card-hero span{
+    display: flex;
+    justify-content: end;
+}
+.card-icon-hero{
+    transform: translate(15.5em, 22px);
+}
+.title-card-hero{
+    margin: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+.hero-title{
+    position: relative;
+    width: 50px;
+    margin-left: 3.5em;
+}
+
+
+
+
+
